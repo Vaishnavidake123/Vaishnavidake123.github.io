@@ -12,112 +12,142 @@
 
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
+    <!-- ================= NAVIGATION ================= -->
 
-        <h2>Vaishnavi Dake</h2>
+    <header class="navbar">
+
+        <h2 class="logo">Vaishnavi Dake</h2>
 
         <nav>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </nav>
 
     </header>
 
 
-    <!-- Home Section -->
+    <!-- ================= HOME ================= -->
+
     <section class="hero">
 
-        <h1>Hi, I'm Vaishnavi Dake 👋</h1>
+        <div class="hero-content">
 
-        <h2>
-            B.Tech Computer Science Engineering Student
-        </h2>
+            <p class="intro">Hello, I'm</p>
 
-        <p>
-            Third-year CSE student interested in software development,
-            programming and emerging technologies.
-        </p>
+            <h1>Vaishnavi Dake</h1>
 
-        <div class="buttons">
+            <h2>B.Tech Computer Science Engineering Student</h2>
 
-            <a href="#projects">
-                View My Projects
-            </a>
+            <p class="hero-text">
+                Third-year Computer Science Engineering student passionate
+                about software development, programming and emerging
+                technologies.
+            </p>
 
-            <a href="resume.pdf" target="_blank">
-                Download Resume
-            </a>
 
-            <a href="https://github.com/Vaishnavidake123"
-               target="_blank">
-                GitHub
-            </a>
+            <!-- BUTTONS -->
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn primary">
+                    View My Projects
+                </a>
+
+                <a href="resume.pdf" target="_blank" class="btn secondary">
+                    Download Resume
+                </a>
+
+                <a href="https://github.com/Vaishnavidake123"
+                   target="_blank"
+                   class="btn secondary">
+                    GitHub
+                </a>
+
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
 
         <h2>About Me</h2>
 
         <p>
-            I am a third-year B.Tech Computer Science Engineering
-            student at Vishwakarma University, Pune. I enjoy learning
-            programming, building practical projects and improving
-            my technical skills. I am interested in software
-            development and emerging technologies and am looking
-            forward to gaining real-world industry experience.
+            I am a third-year B.Tech Computer Science Engineering student
+            at Vishwakarma University, Pune. I enjoy learning programming,
+            building practical projects and improving my technical skills.
+        </p>
+
+        <p>
+            I am interested in software development and emerging
+            technologies and I am looking forward to gaining real-world
+            industry experience through internships and projects.
         </p>
 
     </section>
 
 
-    <!-- Skills Section -->
-    <section id="skills">
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
 
         <h2>Technical Skills</h2>
 
         <div class="skills">
 
-            <p>C</p>
-            <p>C++</p>
-            <p>Java</p>
-            <p>Python</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Data Structures & Algorithms</p>
-            <p>Object-Oriented Programming</p>
-            <p>DBMS</p>
-            <p>Computer Networks</p>
-            <p>Git & GitHub</p>
+            <div class="skill">C</div>
+
+            <div class="skill">C++</div>
+
+            <div class="skill">Java</div>
+
+            <div class="skill">Python</div>
+
+            <div class="skill">HTML</div>
+
+            <div class="skill">CSS</div>
+
+            <div class="skill">JavaScript</div>
+
+            <div class="skill">Data Structures & Algorithms</div>
+
+            <div class="skill">Object-Oriented Programming</div>
+
+            <div class="skill">DBMS</div>
+
+            <div class="skill">Computer Networks</div>
+
+            <div class="skill">Git & GitHub</div>
 
         </div>
 
     </section>
 
 
-    <!-- Projects Section -->
-    <section id="projects">
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
 
         <h2>Projects</h2>
 
 
         <!-- Project 1 -->
+
         <div class="project">
 
             <h3>Traffic Light System</h3>
 
             <p>
-                Developed a traffic-light control project using
-                the Centrado Kit, focusing on basic control logic
-                and sequencing.
+                Developed a traffic-light control project using the
+                Centrado Kit, focusing on basic control logic and
+                sequencing.
             </p>
 
             <p>
@@ -129,14 +159,15 @@
 
 
         <!-- Project 2 -->
+
         <div class="project">
 
             <h3>AI-Powered Document Retrieval System</h3>
 
             <p>
-                Worked on an AI-based document retrieval system
-                using IBM Granite and Docling to process documents
-                and retrieve relevant information.
+                Worked on an AI-based document retrieval system using
+                IBM Granite and Docling to process documents and
+                retrieve relevant information.
             </p>
 
             <p>
@@ -148,6 +179,7 @@
 
 
         <!-- Project 3 -->
+
         <div class="project">
 
             <h3>Bluetooth & UART Interfaces</h3>
@@ -166,6 +198,7 @@
 
 
         <!-- Project 4 -->
+
         <div class="project">
 
             <h3>Understanding SEO</h3>
@@ -185,19 +218,18 @@
     </section>
 
 
-    <!-- Education Section -->
-    <section id="education">
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section">
 
         <h2>Education</h2>
 
         <div class="education">
 
-            <h3>
-                Vishwakarma University, Pune
-            </h3>
+            <h3>Vishwakarma University, Pune</h3>
 
             <p>
-                B.Tech Computer Science Engineering
+                <strong>B.Tech Computer Science Engineering</strong>
             </p>
 
             <p>
@@ -206,50 +238,81 @@
 
         </div>
 
+
+        <div class="education">
+
+            <h3>Higher Secondary Education</h3>
+
+            <p>
+                12th Standard
+            </p>
+
+        </div>
+
+
+        <div class="education">
+
+            <h3>Secondary Education</h3>
+
+            <p>
+                10th Standard
+            </p>
+
+        </div>
+
     </section>
 
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact">
 
         <h2>Contact Me</h2>
 
         <p>
-            I am currently open to internship opportunities
-            and learning experiences.
+            I am currently open to internship opportunities,
+            projects and learning experiences.
         </p>
 
-        <p>
-            <strong>Email:</strong>
-            <a href="mailto:vaishnavidake20@gmail.com">
-                vaishnavidake20@gmail.com
-            </a>
-        </p>
 
-        <p>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/Vaishnavidake123"
-               target="_blank">
-                github.com/Vaishnavidake123
-            </a>
-        </p>
+        <div class="contact-info">
 
-        <p>
-            <strong>LinkedIn:</strong>
-            <a href="YOUR-LINKEDIN-LINK"
-               target="_blank">
-                LinkedIn Profile
-            </a>
-        </p>
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:vaishnavidake20@gmail.com">
+                    vaishnavidake20@gmail.com
+                </a>
+            </p>
+
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Vaishnavidake123"
+                   target="_blank">
+                    github.com/Vaishnavidake123
+                </a>
+            </p>
+
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="YOUR-LINKEDIN-LINK"
+                   target="_blank">
+                    LinkedIn Profile
+                </a>
+            </p>
+
+        </div>
 
     </section>
 
 
-    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
+
     <footer>
 
         <p>
-            © 2026 Vaishnavidake. All Rights Reserved.
+            © 2026 Vaishnavi Dake. All Rights Reserved.
         </p>
 
     </footer>
